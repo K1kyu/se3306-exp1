@@ -1,0 +1,1248 @@
+{
+  "collectedAt": "2026-10-26T01:45:02.717Z",
+  "environment": {
+    "node": "v24.14.1",
+    "browser": "156.0.8078.47",
+    "os": "win32 10.0.26200 x64",
+    "cpu": "Intel(R) Core(TM) i7-14650HX",
+    "logicalCpus": 24,
+    "memoryGB": 16,
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "timezone": "Asia/Shanghai"
+  },
+  "method": "One discarded warm-up per mode/profile, then three fresh-context navigations per mode/profile. Round-robin order. Cache disabled via CDP. Median of each metric. No artificial application delay. Values describe this local experiment only.",
+  "profiles": {
+    "local": {
+      "latency": 0,
+      "downloadBytesPerSecond": -1,
+      "uploadBytesPerSecond": -1,
+      "cpuRate": 1
+    },
+    "slow": {
+      "latency": 150,
+      "downloadBytesPerSecond": 200000,
+      "uploadBytesPerSecond": 93750,
+      "cpuRate": 4
+    }
+  },
+  "sources": {
+    "csr": {
+      "bytes": 535,
+      "sha256": "9d99988610f1230bbde61e49c9e51c6eb0b19be09ca9d42ae3f03c622cb6759b",
+      "articleBodiesInHtml": 0,
+      "headers": {
+        "cache-control": "no-store",
+        "connection": "keep-alive",
+        "content-length": "535",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Mon, 26 Oct 2026 01:45:02 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Mon, 26 Oct 2026 01:44:53 GMT"
+      }
+    },
+    "ssr": {
+      "bytes": 4741,
+      "sha256": "36b4ce5f4b8a7c6391b25f783a9634085bdddfe8002a6473b83185a9e273f75f",
+      "articleBodiesInHtml": 10,
+      "headers": {
+        "cache-control": "no-store",
+        "connection": "keep-alive",
+        "content-length": "4741",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Mon, 26 Oct 2026 01:45:05 GMT",
+        "keep-alive": "timeout=5"
+      }
+    },
+    "ssg": {
+      "bytes": 4705,
+      "sha256": "af6c97b90b555b634aa95c12d1dca8b1de1ad4e13e313c15999f858a038912c2",
+      "articleBodiesInHtml": 10,
+      "headers": {
+        "cache-control": "no-store",
+        "connection": "keep-alive",
+        "content-length": "4705",
+        "content-type": "text/html;charset=utf-8",
+        "date": "Mon, 26 Oct 2026 01:45:06 GMT",
+        "keep-alive": "timeout=5",
+        "last-modified": "Mon, 26 Oct 2026 01:44:54 GMT"
+      }
+    }
+  },
+  "behavior": {
+    "csr": {
+      "articlesWithJs": 10,
+      "articlesWithoutJs": 0,
+      "refreshWorksWithoutJs": null,
+      "mobileWidthsPassed": [
+        375,
+        320
+      ],
+      "pageErrors": []
+    },
+    "ssr": {
+      "articlesWithJs": 10,
+      "articlesWithoutJs": 10,
+      "refreshWorksWithoutJs": true,
+      "mobileWidthsPassed": [
+        375,
+        320
+      ],
+      "pageErrors": [],
+      "requests": [
+        {
+          "id": "3a062cd9-2d6a-4ae3-98c2-875c6e39c73d",
+          "count": 5,
+          "generatedAt": "2026-10-26T01:45:10.921Z"
+        },
+        {
+          "id": "8ff438f6-1658-42d1-8e36-9840cb6422aa",
+          "count": 6,
+          "generatedAt": "2026-10-26T01:45:12.273Z"
+        }
+      ]
+    },
+    "ssg": {
+      "articlesWithJs": 10,
+      "articlesWithoutJs": 10,
+      "refreshWorksWithoutJs": true,
+      "mobileWidthsPassed": [
+        375,
+        320
+      ],
+      "pageErrors": [],
+      "repeatedResponseSha256": [
+        "af6c97b90b555b634aa95c12d1dca8b1de1ad4e13e313c15999f858a038912c2",
+        "af6c97b90b555b634aa95c12d1dca8b1de1ad4e13e313c15999f858a038912c2"
+      ]
+    }
+  },
+  "samples": [
+    {
+      "mode": "csr",
+      "profile": "local",
+      "round": 0,
+      "warmup": true,
+      "fcp": 128,
+      "lcp": 128,
+      "cls": 0,
+      "ttfb": 4,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 4.799999982118607
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 4.300000011920929
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 3.699999988079071
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "local",
+      "round": 0,
+      "warmup": true,
+      "fcp": 132,
+      "lcp": 132,
+      "cls": 0,
+      "ttfb": 2.899999976158142,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 2.7000000178813934
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 9.099999994039536
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "local",
+      "round": 0,
+      "warmup": true,
+      "fcp": 104,
+      "lcp": 104,
+      "cls": 0,
+      "ttfb": 4.5,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 8.599999994039536
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 8.800000011920929
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "local",
+      "round": 1,
+      "warmup": false,
+      "fcp": 112,
+      "lcp": 116,
+      "cls": 0,
+      "ttfb": 4.699999988079071,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 4.199999988079071
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 4.5999999940395355
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 3.2000000178813934
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "local",
+      "round": 1,
+      "warmup": false,
+      "fcp": 92,
+      "lcp": 92,
+      "cls": 0,
+      "ttfb": 2.7999999821186066,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 1.800000011920929
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 3.5
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "local",
+      "round": 1,
+      "warmup": false,
+      "fcp": 92,
+      "lcp": 92,
+      "cls": 0,
+      "ttfb": 4.0999999940395355,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 3.4000000059604645
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 5.199999988079071
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "local",
+      "round": 2,
+      "warmup": false,
+      "fcp": 116,
+      "lcp": 116,
+      "cls": 0,
+      "ttfb": 3.800000011920929,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 8.099999994039536
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 8.5
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 3.199999988079071
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "local",
+      "round": 2,
+      "warmup": false,
+      "fcp": 112,
+      "lcp": 112,
+      "cls": 0,
+      "ttfb": 4.4000000059604645,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 2.800000011920929
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 11.400000005960464
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "local",
+      "round": 2,
+      "warmup": false,
+      "fcp": 152,
+      "lcp": 152,
+      "cls": 0,
+      "ttfb": 4.899999976158142,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 4.5
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 9.099999994039536
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "local",
+      "round": 3,
+      "warmup": false,
+      "fcp": 124,
+      "lcp": 128,
+      "cls": 0,
+      "ttfb": 10,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 5.300000011920929
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 5.4000000059604645
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 4.300000011920929
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "local",
+      "round": 3,
+      "warmup": false,
+      "fcp": 108,
+      "lcp": 108,
+      "cls": 0,
+      "ttfb": 4,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 2.800000011920929
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 6.4000000059604645
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "local",
+      "round": 3,
+      "warmup": false,
+      "fcp": 132,
+      "lcp": 132,
+      "cls": 0,
+      "ttfb": 4.5,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 5.299999982118607
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 5.699999988079071
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "slow",
+      "round": 0,
+      "warmup": true,
+      "fcp": 752,
+      "lcp": 844,
+      "cls": 0,
+      "ttfb": 4.0999999940395355,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 211.90000000596046
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 194.80000001192093
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 351.80000001192093
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "slow",
+      "round": 0,
+      "warmup": true,
+      "fcp": 804,
+      "lcp": 808,
+      "cls": 0,
+      "ttfb": 3.0999999940395355,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 212.90000000596046
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 397.09999999403954
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "slow",
+      "round": 0,
+      "warmup": true,
+      "fcp": 856,
+      "lcp": 856,
+      "cls": 0,
+      "ttfb": 4.699999988079071,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 195.69999998807907
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 363.09999999403954
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "slow",
+      "round": 1,
+      "warmup": false,
+      "fcp": 756,
+      "lcp": 800,
+      "cls": 0,
+      "ttfb": 3.300000011920929,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 200
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 182.60000002384186
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 344
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "slow",
+      "round": 1,
+      "warmup": false,
+      "fcp": 688,
+      "lcp": 692,
+      "cls": 0,
+      "ttfb": 3.399999976158142,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 199.40000000596046
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 368
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "slow",
+      "round": 1,
+      "warmup": false,
+      "fcp": 672,
+      "lcp": 676,
+      "cls": 0,
+      "ttfb": 3.7999999821186066,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 200.19999998807907
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 369.5
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "slow",
+      "round": 2,
+      "warmup": false,
+      "fcp": 748,
+      "lcp": 816,
+      "cls": 0,
+      "ttfb": 3.800000011920929,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 210.69999998807907
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 194.40000000596046
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 345
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "slow",
+      "round": 2,
+      "warmup": false,
+      "fcp": 656,
+      "lcp": 660,
+      "cls": 0,
+      "ttfb": 2.2999999821186066,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 201.30000001192093
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 369.40000000596046
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "slow",
+      "round": 2,
+      "warmup": false,
+      "fcp": 668,
+      "lcp": 672,
+      "cls": 0,
+      "ttfb": 2.7999999821186066,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 203.5
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 374.09999999403954
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "csr",
+      "profile": "slow",
+      "round": 3,
+      "warmup": false,
+      "fcp": 932,
+      "lcp": 940,
+      "cls": 0,
+      "ttfb": 4.0999999940395355,
+      "resources": [
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "initiatorType": "script",
+          "transferSize": 5246,
+          "decodedBodySize": 4946,
+          "duration": 206.30000001192093
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "initiatorType": "link",
+          "transferSize": 2713,
+          "decodedBodySize": 2413,
+          "duration": 189
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 345.59999999403954
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/index-B_K_Rco1.js",
+          "type": "script"
+        },
+        {
+          "path": "/assets/index-DgFwZWwt.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books-CV9sir7K.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 1
+    },
+    {
+      "mode": "ssr",
+      "profile": "slow",
+      "round": 3,
+      "warmup": false,
+      "fcp": 856,
+      "lcp": 860,
+      "cls": 0,
+      "ttfb": 3.300000011920929,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 206.40000000596046
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 374.09999999403954
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    },
+    {
+      "mode": "ssg",
+      "profile": "slow",
+      "round": 3,
+      "warmup": false,
+      "fcp": 768,
+      "lcp": 772,
+      "cls": 0,
+      "ttfb": 3.2999999821186066,
+      "resources": [
+        {
+          "path": "/assets/style.css",
+          "initiatorType": "link",
+          "transferSize": 3142,
+          "decodedBodySize": 2842,
+          "duration": 211.10000002384186
+        },
+        {
+          "path": "/assets/books.jpg",
+          "initiatorType": "img",
+          "transferSize": 35934,
+          "decodedBodySize": 35634,
+          "duration": 363.5
+        }
+      ],
+      "requests": [
+        {
+          "path": "/",
+          "type": "document"
+        },
+        {
+          "path": "/assets/style.css",
+          "type": "stylesheet"
+        },
+        {
+          "path": "/assets/books.jpg",
+          "type": "image"
+        }
+      ],
+      "jsRequests": 0
+    }
+  ],
+  "summary": {
+    "local": {
+      "csr": {
+        "fcp": 116,
+        "lcp": 116,
+        "cls": 0,
+        "ttfb": 4.699999988079071,
+        "jsRequests": 1
+      },
+      "ssr": {
+        "fcp": 108,
+        "lcp": 108,
+        "cls": 0,
+        "ttfb": 4,
+        "jsRequests": 0
+      },
+      "ssg": {
+        "fcp": 132,
+        "lcp": 132,
+        "cls": 0,
+        "ttfb": 4.5,
+        "jsRequests": 0
+      }
+    },
+    "slow": {
+      "csr": {
+        "fcp": 756,
+        "lcp": 816,
+        "cls": 0,
+        "ttfb": 3.800000011920929,
+        "jsRequests": 1
+      },
+      "ssr": {
+        "fcp": 688,
+        "lcp": 692,
+        "cls": 0,
+        "ttfb": 3.300000011920929,
+        "jsRequests": 0
+      },
+      "ssg": {
+        "fcp": 672,
+        "lcp": 676,
+        "cls": 0,
+        "ttfb": 3.2999999821186066,
+        "jsRequests": 0
+      }
+    }
+  },
+  "asset": {
+    "file": "shared/books.jpg",
+    "bytes": 35634
+  }
+}

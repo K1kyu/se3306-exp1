@@ -1,0 +1,6 @@
+{
+  "name": "lab1-ssg",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build-ssg.js", "start": "node ../scripts/serve-ssg.js" }
+}

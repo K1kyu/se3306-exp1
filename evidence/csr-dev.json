@@ -1,0 +1,52 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "collectedAt": "2026-10-26T01:45:10.450Z",
+  "articles": 10,
+  "requests": [
+    {
+      "path": "/",
+      "status": 200,
+      "type": "document"
+    },
+    {
+      "path": "/src/main.js",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/shared/posts.js",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/shared/render.js",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/shared/style.css",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/shared/books.jpg",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@vite/client",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/node_modules/.pnpm/vite@6.4.5_@types+node@26.6.5/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "type": "script"
+    },
+    {
+      "path": "/@fs/C:/Users/K1kyu/Documents/Codex/2026-10-26/https-gitee-com-suuupercorn-se3306-exp1/outputs/se3306-exp1/shared/books.jpg",
+      "status": 200,
+      "type": "image"
+    }
+  ]
+}

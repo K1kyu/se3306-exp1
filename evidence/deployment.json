@@ -1,0 +1,76 @@
+{
+  "verifiedAt": "2026-10-26T03:25:13.409Z",
+  "checks": {
+    "csr": {
+      "url": "https://k1kyu-exp1-csr.onrender.com/",
+      "htmlBytes": 535,
+      "sourceArticleCount": 0,
+      "responseHashes": [
+        "9d99988610f1230bbde61e49c9e51c6eb0b19be09ca9d42ae3f03c622cb6759b",
+        "9d99988610f1230bbde61e49c9e51c6eb0b19be09ca9d42ae3f03c622cb6759b"
+      ],
+      "changesBetweenRequests": false,
+      "assets": [
+        {
+          "path": "assets/books-CV9sir7K.jpg",
+          "bytes": 35634,
+          "sha256": "72be8e46e18f4b5eccffe297a807544df13703f406da0a8ad9e623f66392e4e0"
+        },
+        {
+          "path": "assets/index-B_K_Rco1.js",
+          "bytes": 4946,
+          "sha256": "1ff3561cd8c6fce987e2cb596c2daaa8040f730d5dd2176a99f4f6e24fb1a6e9"
+        },
+        {
+          "path": "assets/index-DgFwZWwt.css",
+          "bytes": 2413,
+          "sha256": "3401ebd8965da05b441df7c3cd2ba6ba6623380d6a1d73747147e1f8368883d9"
+        }
+      ]
+    },
+    "ssr": {
+      "url": "https://k1kyu-exp1-ssr.onrender.com/",
+      "htmlBytes": 4741,
+      "sourceArticleCount": 10,
+      "responseHashes": [
+        "144a6c655710c794d055b0442a2ef0ac9f31bdea84bf0741e514c7a27c3e88a4",
+        "9a12dfb1c1430303ccfcac8307ee224a0ac896485a6cfb6393da9f772bdc6de4"
+      ],
+      "changesBetweenRequests": true,
+      "assets": [
+        {
+          "path": "assets/style.css",
+          "bytes": 2842,
+          "sha256": "6f02dd3d2d182539dad54cb59e4cc9b3a20972533864641bf24de478b4b720d6"
+        },
+        {
+          "path": "assets/books.jpg",
+          "bytes": 35634,
+          "sha256": "72be8e46e18f4b5eccffe297a807544df13703f406da0a8ad9e623f66392e4e0"
+        }
+      ]
+    },
+    "ssg": {
+      "url": "https://k1kyu-exp1-ssg.onrender.com/",
+      "htmlBytes": 4705,
+      "sourceArticleCount": 10,
+      "responseHashes": [
+        "af6c97b90b555b634aa95c12d1dca8b1de1ad4e13e313c15999f858a038912c2",
+        "af6c97b90b555b634aa95c12d1dca8b1de1ad4e13e313c15999f858a038912c2"
+      ],
+      "changesBetweenRequests": false,
+      "assets": [
+        {
+          "path": "assets/books.jpg",
+          "bytes": 35634,
+          "sha256": "72be8e46e18f4b5eccffe297a807544df13703f406da0a8ad9e623f66392e4e0"
+        },
+        {
+          "path": "assets/style.css",
+          "bytes": 2842,
+          "sha256": "6f02dd3d2d182539dad54cb59e4cc9b3a20972533864641bf24de478b4b720d6"
+        }
+      ]
+    }
+  }
+}

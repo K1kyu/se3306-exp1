@@ -1,0 +1,38 @@
+{
+  "collectedAt": "2026-10-26T01:45:00.294Z",
+  "method": "Controlled in-memory dataset with a request-time SSR provider and a separate temporary SSG build. No project source or production build is modified.",
+  "originalTitle": "把一章书读成三个问题",
+  "updatedTitle": "更新实验：先提问，再验证",
+  "observations": [
+    {
+      "stage": "before-change",
+      "mode": "SSR",
+      "showsUpdatedTitle": false,
+      "sha256": "2415cc4a93a3e1d477ab3da407366e506fc25522430ac7e28a26ee207de70b79"
+    },
+    {
+      "stage": "before-change",
+      "mode": "SSG",
+      "showsUpdatedTitle": false,
+      "sha256": "a32dd4172ff10c85d408675f950041362ca850a4eb8fc2cf7b6ff09f15be2530"
+    },
+    {
+      "stage": "after-data-change",
+      "mode": "SSR",
+      "showsUpdatedTitle": true,
+      "sha256": "0251c306d60a3e76db28e5992951c8c0a84bdfb6ac992e2356d7d790ab248b42"
+    },
+    {
+      "stage": "after-data-change",
+      "mode": "SSG",
+      "showsUpdatedTitle": false,
+      "sha256": "a32dd4172ff10c85d408675f950041362ca850a4eb8fc2cf7b6ff09f15be2530"
+    },
+    {
+      "stage": "after-rebuild",
+      "mode": "SSG",
+      "showsUpdatedTitle": true,
+      "sha256": "ffa9dd13f1904288fbd5892bb99a5604555100000de73834e298419aa2e34a8f"
+    }
+  ]
+}
